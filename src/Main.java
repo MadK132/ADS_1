@@ -81,7 +81,10 @@ public class Main {
                 s = true;
            }
             else if(task==9){
-
+                System.out.println("Write numbers");
+                int k = scanner.nextInt();
+                int n = scanner.nextInt();
+                System.out.println("Binomial coefficient is " + Task9.BinCoef(n,k));
             }
         }
     }
