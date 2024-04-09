@@ -1,9 +1,8 @@
 public class Task6 {
     static int Pow(int a, int n){
-        int res = a;
-        for(int i = 1; i<n;i++){
-            res *=a;
+        if(n==0){
+            return 1;
         }
-        return res;
+        return a*Pow(a,n-1);
     }
 }

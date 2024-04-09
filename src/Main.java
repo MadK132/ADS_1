@@ -61,11 +61,27 @@ public class Main {
                 int a = scanner.nextInt();
                 System.out.println("Write power of its");
                 int n = scanner.nextInt();
+
                 System.out.println("Result is " + Task6.Pow(a,n) );
                 s = true;
             }
             else if(task==7){
                 System.out.println();
+            }
+            else if(task==8){
+                System.out.println("Write down a text");
+                scanner.nextLine();
+                String text = scanner.nextLine();
+                if(Task8.check(text)==true){
+                    System.out.println("Yes");
+                }
+                else{
+                    System.out.println("No");
+                }
+                s = true;
+           }
+            else if(task==9){
+
             }
         }
     }

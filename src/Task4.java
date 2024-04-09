@@ -1,9 +1,8 @@
 public class Task4 {
     static int Factorial(int n){
-        int fact = 1;
-        for(int i = 1; i<=n; i++){
-            fact *= i;
+        if(n==0){
+            return 1;
         }
-        return fact;
+        return n*Factorial(n-1);
     }
 }
