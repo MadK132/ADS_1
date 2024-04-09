@@ -1,4 +1,5 @@
 import java.rmi.UnexpectedException;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -30,6 +31,17 @@ public class Main {
                 float avrg = Task2.findaverage(array);
                 System.out.println("Average of this array is " + avrg);
                 s = true;
+            }
+            else if(task==3){
+                System.out.println("Write a number");
+                int n = scanner.nextInt();
+                boolean prime = Task3.Prime(n);
+                if(prime==true){
+                    System.out.println("Prime");
+                }
+                else{
+                    System.out.println("Composite");
+                }
             }
         }
     }
