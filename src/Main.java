@@ -66,7 +66,14 @@ public class Main {
                 s = true;
             }
             else if(task==7){
-                System.out.println();
+                System.out.println("Write length of array");
+                int n = scanner.nextInt();
+                int[] array = new int[n];
+                System.out.println("Write down elements of this array");
+                for (int i = 0; i < n; i++) {
+                    array[i] = scanner.nextInt();
+                }
+
             }
             else if(task==8){
                 System.out.println("Write down a text");
@@ -85,6 +92,14 @@ public class Main {
                 int k = scanner.nextInt();
                 int n = scanner.nextInt();
                 System.out.println("Binomial coefficient is " + Task9.BinCoef(n,k));
+                s = true;
+            }
+            else if(task==10){
+                System.out.println("Write numbers");
+                int a = scanner.nextInt();
+                int b = scanner.nextInt();
+                System.out.println("GCD of these numbers is " + Task10.GCD(a,b));
+                s = true;
             }
         }
     }
