@@ -50,6 +50,11 @@ public class Main {
                 System.out.println(n + "! = " + Task4.Factorial(n));
                 s = true;
             }
+            else if(task==5){
+                System.out.println("Write a number");
+                int n = scanner.nextInt();
+                System.out.println(Task5.Fib(n));
+            }
         }
     }
 }
