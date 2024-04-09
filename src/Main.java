@@ -17,8 +17,19 @@ public class Main {
                 }
                 int min = Task1.findMinimum(array);
                 System.out.println("Minimum in this array is" + " " + min);
+                s = true;
             }
             else if(task==2){
+                System.out.println("Write size of your array:");
+                int n = scanner.nextInt();
+                int[] array = new int[n];
+                System.out.println("Write every element of array");
+                for (int i = 0; i < n; i++) {
+                    array[i] = scanner.nextInt();
+                }
+                float avrg = Task2.findaverage(array);
+                System.out.println("Average of this array is " + avrg);
+                s = true;
             }
         }
     }
