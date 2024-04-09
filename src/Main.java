@@ -41,7 +41,14 @@ public class Main {
                 }
                 else{
                     System.out.println("Composite");
+                    s = true;
                 }
+            }
+            else if(task==4){
+                System.out.println("Write a number");
+                int n = scanner.nextInt();
+                System.out.println(n + "! = " + Task4.Factorial(n));
+                s = true;
             }
         }
     }
