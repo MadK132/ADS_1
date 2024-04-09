@@ -54,6 +54,18 @@ public class Main {
                 System.out.println("Write a number");
                 int n = scanner.nextInt();
                 System.out.println(Task5.Fib(n));
+                s = true;
+            }
+            else if(task==6){
+                System.out.println("Write a number");
+                int a = scanner.nextInt();
+                System.out.println("Write power of its");
+                int n = scanner.nextInt();
+                System.out.println("Result is " + Task6.Pow(a,n) );
+                s = true;
+            }
+            else if(task==7){
+                System.out.println();
             }
         }
     }
