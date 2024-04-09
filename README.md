@@ -45,4 +45,3 @@ Task10:
 static int GCD(int a, int b)
 By Eucledian Algorithm we work with remainder of number
 In case b==0 it will return a
-
