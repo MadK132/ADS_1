@@ -73,7 +73,12 @@ public class Main {
                 for (int i = 0; i < n; i++) {
                     array[i] = scanner.nextInt();
                 }
-
+                Task7.reverse(array,0,n);
+                for(int i = 0; i<n;i++){
+                    System.out.print(array[i] + " ");
+                }
+                scanner.nextLine();
+                s = true;
             }
             else if(task==8){
                 System.out.println("Write down a text");
