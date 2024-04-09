@@ -1,13 +1,22 @@
-import java.rmi.UnexpectedException;
-import java.sql.SQLOutput;
 import java.util.Scanner;
+/**
+ * Creating Main.java for future compilation here
+ * boolean s is necessary for cycle in which we will choose a task we need to solve
+ * Creating a scanner for saving values there
+ */
 public class Main {
+
     public static void main(String[] args) {
         boolean s = false;
         Scanner scanner = new Scanner(System.in);
         while(!s){
             System.out.println("Write number of task you need(1-10)");
             int task = scanner.nextInt();
+            /**
+             * Creating console manager to make it easier to solve and choose tasks
+             *
+             *
+             */
             if(task==1){
                 System.out.println("Write size of your array:");
                 int n = scanner.nextInt();
@@ -20,6 +29,11 @@ public class Main {
                 System.out.println("Minimum in this array is" + " " + min);
                 s = true;
             }
+            /**Here and next tasks we just create array or numbers and call the functions as result
+             * s = true is fully stopping the program
+             *
+             *
+             */
             else if(task==2){
                 System.out.println("Write size of your array:");
                 int n = scanner.nextInt();
@@ -80,6 +94,11 @@ public class Main {
                 scanner.nextLine();
                 s = true;
             }
+            /**7th task is different from other because it in void type and it dont return anything
+             *
+             *
+             *
+             */
             else if(task==8){
                 System.out.println("Write down a text");
                 scanner.nextLine();

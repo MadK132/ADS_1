@@ -14,3 +14,9 @@ public class Task3 {
         return t;
     }
 }
+/**If the number is equal to 1 it's not prime (make some exception)
+ * Initially it's true that it's prime and in condition it will be divided not itself, it will be composite number
+ *
+ *
+ *
+ */

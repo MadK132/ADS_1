@@ -7,3 +7,8 @@ public class Task2 {
         return sum/arr.length;
     }
 }
+/**We summarize elements in the array and just divide it by it length and get average
+ *
+ *
+ *
+ */

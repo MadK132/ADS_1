@@ -9,3 +9,8 @@ public class Task1 {
         return min;
     }
 }
+/**Here is nothing complex, just by comparing each element of array we save a minimum and just return it
+ * First element will be a minimum, we can also give a minimum the highest value, but it's complex
+ *
+ *
+ */

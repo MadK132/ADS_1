@@ -5,6 +5,11 @@ public class Task5 {
         } else {
             return Fib(n - 1) + Fib(n - 2);
         }
-
     }
 }
+/**Fibonacci numbers sequence is combining the previous number to the next
+ * We make exception, because this sequence cover only numbers from 1
+ *
+ *
+ *
+ */
